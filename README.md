@@ -1,16 +1,41 @@
-# React + Vite
+# Kumari Shivani - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive portfolio website built with React, showcasing my projects, skills, and professional experience in data science and software development.
 
-Currently, two official plugins are available:
+![Portfolio Preview](./preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- **Dark/Light Mode** - Toggle between themes for comfortable viewing
+- **Smooth Animations** - Engaging scroll-based animations using Framer Motion
+- **Interactive UI** - Hover effects and smooth transitions throughout
+- **Professional Sections**:
+  - Hero section with profile and contact information
+  - About Me with detailed background
+  - Technical Skills organized by category
+  - Professional Experience with detailed descriptions
+  - Project showcase with key features
+  - Education timeline
+  - Leadership & Extracurricular activities
+  - Honors & Awards
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend Framework**: React.js
+- **Build Tool**: Vite
+- **Animation Library**: Framer Motion
+- **Icons**: Lucide React
+- **Styling**: Inline CSS with modern design principles
+- **Deployment**: Ready for Netlify/Vercel/GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation & Setup
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Steps to Run Locally
+
+1. **Clone the repository**
+```bash
