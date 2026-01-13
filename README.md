@@ -1,41 +1,86 @@
-# Kumari Shivani - Portfolio Website
+# Kumari Shivani - Portfolio
 
-A modern, interactive portfolio website built with React, showcasing my projects, skills, and professional experience in data science and software development.
+A modern, interactive portfolio website showcasing my projects, skills, and professional experience in data science and software development.
 
-![Portfolio Preview](./preview.png)
+## ✨ Features
 
-## 🌟 Features
+- 🎨 Dark/Light mode toggle
+- 🎭 Smooth scroll animations
+- 📱 Fully responsive design
+- ⚡ Fast performance with Vite
+- 🎯 Interactive UI with hover effects
 
-- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
-- **Dark/Light Mode** - Toggle between themes for comfortable viewing
-- **Smooth Animations** - Engaging scroll-based animations using Framer Motion
-- **Interactive UI** - Hover effects and smooth transitions throughout
-- **Professional Sections**:
-  - Hero section with profile and contact information
-  - About Me with detailed background
-  - Technical Skills organized by category
-  - Professional Experience with detailed descriptions
-  - Project showcase with key features
-  - Education timeline
-  - Leadership & Extracurricular activities
-  - Honors & Awards
+## 🛠️ Built With
 
-## 🚀 Tech Stack
+- React.js
+- Vite
+- Framer Motion
+- Lucide React Icons
 
-- **Frontend Framework**: React.js
-- **Build Tool**: Vite
-- **Animation Library**: Framer Motion
-- **Icons**: Lucide React
-- **Styling**: Inline CSS with modern design principles
-- **Deployment**: Ready for Netlify/Vercel/GitHub Pages
-
-## 📦 Installation & Setup
-
-### Prerequisites
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Steps to Run Locally
-
-1. **Clone the repository**
+## 🚀 Quick Start
 ```bash
+# Clone the repository
+git clone https://github.com/shivani-i-i/portfolio.git
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## 📂 Project Structure
+```
+src/
+├── assets/
+│   └── shivani.jpg      # Profile picture
+├── App.jsx              # Main component
+└── main.jsx             # Entry point
+```
+
+## 🎨 Customization
+
+Edit `src/App.jsx` to update:
+- Personal information
+- Projects
+- Skills
+- Experience
+- Education
+
+Replace `src/assets/shivani.jpg` with your photo.
+
+## 🌐 Deployment
+
+### Netlify
+```bash
+npm run build
+# Deploy dist folder to Netlify
+```
+
+### Vercel
+```bash
+# Connect GitHub repo to Vercel
+# Auto-deploys on push
+```
+
+### GitHub Pages
+```bash
+npm install --save-dev gh-pages
+npm run deploy
+```
+
+## 📧 Contact
+
+**Kumari Shivani**
+- Email: Shivani82208@gmail.com
+- LinkedIn: [kumari-shivani-h0](https://www.linkedin.com/in/kumari-shivani-h0/)
+- GitHub: [shivani-i-i](https://github.com/shivani-i-i)
+
+## 📄 License
+
+MIT License - feel free to use this template!
+
+---
